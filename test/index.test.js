@@ -419,6 +419,6 @@ describe("kCore", () => {
   // Cleanup
   after(async () => {
     if (server) await server.close();
-    app.db.client.dropDatabase();
+    app.db.instance.dropDatabase();
   });
 });
