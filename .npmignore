@@ -1,0 +1,9 @@
+.editorconfig
+.jshintrc
+.travis.yml
+.istanbul.yml
+.idea/
+babel.config.js
+src/
+test/
+!lib/
