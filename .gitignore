@@ -9,8 +9,8 @@ node_modules/
 # dotenv environment variables file
 .env
 
-# Distribution files
-lib
+# # Distribution files
+# lib
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
