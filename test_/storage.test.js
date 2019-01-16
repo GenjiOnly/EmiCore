@@ -148,6 +148,6 @@ describe("kCore:storage", () => {
   // Cleanup
   after(async () => {
     if (server) await server.close();
-    app.db.instance.dropDatabase();
+    app.db.client.dropDatabase();
   });
 });
